@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+#canvas-complex {
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -2;
+}
+
+.title{
+    font-family: 'Lobster', cursive;
+    color: rgb(16, 17, 17);
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-style: italic;
+}
+.sub {
+    font-weight: bolder;
+    color:rgb(20, 20, 20);
+    /* margin-top: 50px; */
+    margin-left: px;
+
+
+}
+
+.main-icon {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    font-size: 14px;
+}
+
+
+
+.icons ul li {
+    display: inline-flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+
+.content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+ul{
+    /* margin-top: 50px; */
+    list-style: none;
+    margin: 0;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid: 1px;;
+    position: relative;
+    right: 2px;
+
+}
+.icons-equal{
+    display: grid;
+    grid-template-columns: auto 1fr;
+
+}
+
+.icons-equal i{
+    position: relative;
+    top: 10px;
+    display: grid;
+    grid-template-columns: auto 1fr;
+}
+
+
+
+
+}
+
